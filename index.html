@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>2026 WNBA Draft Review — Mercury Intelligence | Apr 14</title>
+<meta name="description" content="Comprehensive 2026 WNBA Draft review with Phoenix Mercury focus. Azzi Fudd goes No. 1 to Dallas. Mercury select international prospects Pitarch-Granel and Rátkai.">
+<meta property="og:title" content="2026 WNBA Draft Review — Mercury Ownership Intelligence">
+<meta property="og:description" content="Full draft breakdown. Mercury select two international prospects. UCLA makes history with 6 picks. Fudd reunites with Bueckers in Dallas.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://meltckr.github.io/mercury-draft-review/og-image.jpg">
+<meta property="og:url" content="https://meltckr.github.io/mercury-draft-review/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026 WNBA Draft Review — Mercury Ownership Intelligence">
+<meta name="twitter:description" content="Full draft breakdown. Mercury select two international prospects. UCLA makes history with 6 picks. Fudd reunites with Bueckers in Dallas.">
+<meta name="twitter:image" content="https://meltckr.github.io/mercury-draft-review/og-image.jpg">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+:root {
+  --bg: #08080e;
+  --surface: #10101a;
+  --surface-2: #171724;
+  --surface-3: #1f1f32;
+  --border: #282840;
+  --border-hover: #383858;
+  --text: #e6e6f2;
+  --text-muted: #8686a0;
+  --text-dim: #5a5a74;
+  --mercury-teal: #00b4a6;
+  --mercury-teal-glow: rgba(0, 180, 166, 0.12);
+  --mercury-orange: #e8601e;
+  --mercury-orange-glow: rgba(232, 96, 30, 0.12);
+  --mercury-purple: #2d1b69;
+  --mercury-purple-glow: rgba(45, 27, 105, 0.25);
+  --accent: var(--mercury-teal);
+  --accent-glow: var(--mercury-teal-glow);
+  --win: #22c55e;
+  --loss: #ef4444;
+  --gold: #f59e0b;
+  --blue: #3b82f6;
+  --purple: #8b5cf6;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* ═══ HEADER ═══ */
+.header {
+  background: linear-gradient(165deg, #0e0e1a 0%, #0d1420 40%, #0a1a1a 70%, #0e0e1a 100%);
+  padding: 20px 18px 22px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: -60%;
+  right: -30%;
+  width: 70%;
+  height: 200%;
+  background: radial-gradient(ellipse, rgba(0,180,166,0.06) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: -40%;
+  left: -20%;
+  width: 50%;
+  height: 150%;
+  background: radial-gradient(ellipse, rgba(45,27,105,0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.brand-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.brand-logo svg { display: block; }
+
+.brand-tag {
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  color: var(--mercury-teal);
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border: 1px solid rgba(0,180,166,0.2);
+  border-radius: 4px;
+  background: rgba(0,180,166,0.06);
+}
+
+.draft-header {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.draft-event-date {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.draft-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+  margin-bottom: 4px;
+}
+
+.draft-title span {
+  color: var(--mercury-teal);
+}
+
+.draft-subtitle {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.draft-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 16px;
+  border-radius: 5px;
+  background: rgba(0,180,166,0.1);
+  border: 1px solid rgba(0,180,166,0.25);
+  color: var(--mercury-teal);
+}
+
+.draft-venue {
+  font-size: 10.5px;
+  color: var(--text-dim);
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+/* ═══ ACCORDIONS ═══ */
+.accordion-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.accordion-trigger {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.accordion-trigger:active {
+  background: var(--surface-2);
+}
+
+.accordion-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-num {
+  font-size: 9px;
+  font-weight: 800;
+  color: var(--mercury-teal);
+  letter-spacing: 0.5px;
+  background: var(--mercury-teal-glow);
+  padding: 2px 7px;
+  border-radius: 4px;
+  min-width: 22px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.2px;
+}
+
+.accordion-arrow {
+  font-size: 11px;
+  color: var(--text-dim);
+  transition: transform 0.25s ease;
+}
+
+.accordion-item.open .accordion-arrow {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+.accordion-item.open .accordion-content {
+  max-height: 10000px;
+}
+
+.section-body {
+  padding: 0 18px 20px;
+  background: var(--surface);
+}
+
+/* ═══ CONTENT ELEMENTS ═══ */
+.insight-text {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.insight-text strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.insight-text .highlight {
+  color: var(--mercury-teal);
+  font-weight: 600;
+}
+
+.insight-text .orange {
+  color: var(--mercury-orange);
+  font-weight: 600;
+}
+
+.card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.card-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.card-tag {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.tag-mercury {
+  background: var(--mercury-teal-glow);
+  color: var(--mercury-teal);
+}
+
+.tag-pick {
+  background: var(--mercury-orange-glow);
+  color: var(--mercury-orange);
+}
+
+.tag-round1 {
+  background: rgba(245,158,11,0.12);
+  color: var(--gold);
+}
+
+.tag-round2 {
+  background: rgba(59,130,246,0.1);
+  color: var(--blue);
+}
+
+.tag-round3 {
+  background: rgba(139,92,246,0.1);
+  color: var(--purple);
+}
+
+.tag-trade {
+  background: rgba(239,68,68,0.1);
+  color: var(--loss);
+}
+
+.tag-expansion {
+  background: rgba(34,197,94,0.1);
+  color: var(--win);
+}
+
+.card-stats {
+  font-size: 12px;
+  color: var(--mercury-teal);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card-detail {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.card-detail strong {
+  color: var(--text);
+}
+
+/* Draft pick row */
+.draft-pick-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.draft-pick-row:last-child { border-bottom: none; }
+
+.pick-num {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--text-dim);
+  min-width: 26px;
+  text-align: center;
+}
+
+.pick-num.mercury-pick {
+  color: var(--mercury-teal);
+  background: var(--mercury-teal-glow);
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+.pick-team {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  min-width: 40px;
+  letter-spacing: 0.3px;
+}
+
+.pick-team.mercury {
+  color: var(--mercury-teal);
+}
+
+.pick-player {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  flex: 1;
+}
+
+.pick-player.mercury-player {
+  color: var(--mercury-teal);
+}
+
+.pick-info {
+  font-size: 10px;
+  color: var(--text-dim);
+  text-align: right;
+  min-width: 60px;
+}
+
+/* Player profile card (Mercury picks) */
+.profile-card {
+  background: linear-gradient(135deg, var(--surface-2) 0%, rgba(0,180,166,0.04) 100%);
+  border: 1px solid rgba(0,180,166,0.15);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.2px;
+}
+
+.profile-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.profile-pick-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  background: var(--mercury-teal-glow);
+  border: 1px solid rgba(0,180,166,0.2);
+  color: var(--mercury-teal);
+}
+
+.profile-stats-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.profile-stat {
+  background: var(--surface-3);
+  border-radius: 6px;
+  padding: 8px 10px;
+  text-align: center;
+  flex: 1;
+  min-width: 65px;
+}
+
+.profile-stat-val {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--mercury-teal);
+}
+
+.profile-stat-label {
+  font-size: 8.5px;
+  font-weight: 700;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 1px;
+}
+
+.profile-scouting {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  background: var(--surface-3);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+}
+
+.profile-scouting strong { color: #fff; }
+
+.profile-projection {
+  margin-top: 8px;
+  font-size: 11px;
+  color: var(--text-dim);
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Quote block */
+.quote-block {
+  background: var(--surface-2);
+  border-left: 3px solid var(--mercury-teal);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+
+.quote-text {
+  font-size: 12px;
+  color: var(--text);
+  line-height: 1.65;
+  font-style: italic;
+}
+
+.quote-attr {
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.quote-block.orange-quote {
+  border-left-color: var(--mercury-orange);
+}
+
+/* Grade badge */
+.grade-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.grade-row:last-child { border-bottom: none; }
+
+.grade-badge {
+  font-size: 16px;
+  font-weight: 800;
+  min-width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.grade-d { background: rgba(239,68,68,0.12); color: var(--loss); }
+.grade-b { background: rgba(59,130,246,0.1); color: var(--blue); }
+.grade-c { background: rgba(245,158,11,0.12); color: var(--gold); }
+
+.grade-outlet {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.grade-take {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 2px;
+}
+
+/* Calendar/schedule items */
+.calendar-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.calendar-item:last-child { border-bottom: none; }
+
+.cal-date {
+  min-width: 52px;
+  text-align: center;
+}
+
+.cal-month {
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--mercury-teal);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cal-day {
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.cal-info {
+  flex: 1;
+}
+
+.cal-event {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.cal-detail {
+  font-size: 10.5px;
+  color: var(--text-dim);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+.cal-badge {
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.cal-mercury { background: var(--mercury-teal-glow); color: var(--mercury-teal); }
+.cal-league { background: rgba(139,92,246,0.1); color: var(--purple); }
+.cal-finals { background: rgba(245,158,11,0.12); color: var(--gold); }
+
+/* Storyline cards */
+.storyline {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  margin-bottom: 8px;
+}
+
+.storyline-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.storyline-text {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.storyline-text .teal { color: var(--mercury-teal); font-weight: 600; }
+
+/* Roster table */
+.roster-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.roster-row:last-child { border-bottom: none; }
+
+.roster-pos {
+  font-size: 9px;
+  font-weight: 800;
+  color: var(--mercury-teal);
+  letter-spacing: 0.5px;
+  min-width: 28px;
+}
+
+.roster-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  flex: 1;
+}
+
+.roster-note {
+  font-size: 10px;
+  color: var(--text-dim);
+  text-align: right;
+  max-width: 140px;
+}
+
+.roster-status {
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.status-signed { background: rgba(34,197,94,0.1); color: var(--win); }
+.status-new { background: var(--mercury-teal-glow); color: var(--mercury-teal); }
+.status-draft { background: var(--mercury-orange-glow); color: var(--mercury-orange); }
+.status-lost { background: rgba(239,68,68,0.1); color: var(--loss); }
+.status-pending { background: rgba(245,158,11,0.12); color: var(--gold); }
+
+/* Section dividers */
+.section-divider {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 10px 0 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.section-divider.teal { color: var(--mercury-teal); border-bottom-color: rgba(0,180,166,0.15); }
+
+/* ═══ FOOTER ═══ */
+.footer {
+  text-align: center;
+  padding: 28px 18px 36px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+
+.footer-tagline {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--mercury-teal);
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 14px;
+}
+
+.footer-logo { margin-bottom: 10px; }
+.footer-logo svg { display: inline-block; }
+
+.footer-message {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--mercury-teal);
+  margin-top: 8px;
+  letter-spacing: 0.3px;
+}
+
+.footer-timestamp {
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-top: 8px;
+  letter-spacing: 0.3px;
+}
+
+.footer-accent {
+  height: 3px;
+  background: linear-gradient(90deg, var(--mercury-teal) 0%, var(--mercury-orange) 50%, var(--mercury-purple) 100%);
+  margin-top: 20px;
+  border-radius: 2px;
+  opacity: 0.6;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- ═══ HEADER ═══ -->
+<div class="header">
+  <div class="brand-bar">
+    <div class="brand-logo">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 64" width="170" height="32">
+        <circle cx="32" cy="32" r="30" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.2"/>
+        <circle cx="32" cy="32" r="22" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.45"/>
+        <circle cx="32" cy="32" r="14" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.85"/>
+        <line x1="22" y1="32" x2="43" y2="32" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+        <polyline points="37,26 43,32 37,38" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <line x1="78" y1="12" x2="78" y2="52" stroke="rgba(255,255,255,0.25)" stroke-width="1.2"/>
+        <text x="94" y="38" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="28" fill="#ffffff" letter-spacing="-0.5">AVC</text>
+        <text x="94" y="53" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="7.8" fill="rgba(255,255,255,0.55)" letter-spacing="2.4">ACCELERATED VELOCITY CONSULTING</text>
+      </svg>
+    </div>
+    <span class="brand-tag">Ownership Intelligence</span>
+  </div>
+  <div class="draft-header">
+    <div class="draft-event-date">Sunday, April 13, 2026</div>
+    <div class="draft-title">2026 WNBA <span>Draft</span></div>
+    <div class="draft-subtitle">In Review — Phoenix Mercury Focus</div>
+    <div class="draft-badge">Draft Intelligence</div>
+    <div class="draft-venue">The Shed at Hudson Yards, New York City · ESPN</div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 1: EXECUTIVE SUMMARY ═══ -->
+<div class="accordion-item open" id="sec-1">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-1')">
+    <div class="accordion-label">
+      <span class="section-num">01</span>
+      <span class="section-title">Executive Summary</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <p class="insight-text">
+        The 2026 WNBA Draft delivered a historic night headlined by <strong>Azzi Fudd</strong> going No. 1 overall to Dallas — reuniting with Paige Bueckers — and <strong>UCLA setting records</strong> with 6 players drafted (5 in Round 1). Three expansion franchises made their first-ever picks, Golden State's controversial Flau'Jae Johnson trade dominated the post-draft discourse, and the new CBA saw the first $500K rookie contract in WNBA history.
+      </p>
+      <p class="insight-text">
+        <strong>For Phoenix:</strong> The Mercury entered the draft without a first-round pick (traded to Connecticut) and selected two <span class="highlight">international developmental prospects</span> — French wing <strong>Inés Pitarch-Granel</strong> (No. 27) and Hungarian point guard <strong>Eszter Rátkai</strong> (No. 42). Both are 19-year-old Europeans with professional experience, continuing GM <span class="highlight">Nick U'Ren's strategy of investing internationally</span> rather than chasing established names with late-round picks. The real roster building happened before the draft — re-signing <span class="orange">Copper, Thomas, Bonner, and Whitcomb</span> to maintain the 2025 Finals core.
+      </p>
+      <p class="insight-text">
+        Media grades were mixed: <strong>ESPN gave a D</strong> (hard to evaluate 19-year-old European picks), while <strong>Bleacher Report was more optimistic</strong> at B-/C, noting Pitarch-Granel's defensive ceiling. The consensus: Phoenix's 2026 success depends on its veteran core, not draft night.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 2: MERCURY DRAFT PICKS ═══ -->
+<div class="accordion-item" id="sec-2">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-2')">
+    <div class="accordion-label">
+      <span class="section-num">02</span>
+      <span class="section-title">Mercury Draft Picks</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <p class="insight-text">
+        Phoenix held two selections — <strong>No. 27</strong> (Round 2) and <strong>No. 42</strong> (Round 3) — their first draft picks in two years. The Mercury's original first-round slot (No. 12) was traded to Connecticut in a prior sign-and-trade deal. No trades were made during the draft itself.
+      </p>
+
+      <!-- Pick 27 -->
+      <div class="profile-card">
+        <div class="profile-header">
+          <div>
+            <div class="profile-name">Inés Pitarch-Granel</div>
+            <div class="profile-meta">SG/SF · 6'0" · France · Age 19</div>
+            <div class="profile-meta">Tango Bourges Basket (French League)</div>
+          </div>
+          <div class="profile-pick-badge">PICK 27</div>
+        </div>
+        <div class="section-divider teal">Club Stats — 2025-26 (24 games)</div>
+        <div class="profile-stats-row">
+          <div class="profile-stat">
+            <div class="profile-stat-val">5.3</div>
+            <div class="profile-stat-label">PPG</div>
+          </div>
+          <div class="profile-stat">
+            <div class="profile-stat-val">2.6</div>
+            <div class="profile-stat-label">RPG</div>
+          </div>
+          <div class="profile-stat">
+            <div class="profile-stat-val">38.1%</div>
+            <div class="profile-stat-label">3PT%</div>
+          </div>
+        </div>
+        <div class="section-divider teal">FIBA U19 World Cup</div>
+        <div class="profile-stats-row">
+          <div class="profile-stat">
+            <div class="profile-stat-val">9.7</div>
+            <div class="profile-stat-label">PPG</div>
+          </div>
+          <div class="profile-stat">
+            <div class="profile-stat-val">4.7</div>
+            <div class="profile-stat-label">RPG</div>
+          </div>
+          <div class="profile-stat">
+            <div class="profile-stat-val">2.0</div>
+            <div class="profile-stat-label">SPG</div>
+          </div>
+        </div>
+        <div class="profile-scouting">
+          <strong>Scouting Report:</strong> Elite-level defender with long wingspan and instinct for the ball. Legitimate three-point threat at 38.1% from deep in EuroLeague Women. At 6'0", she offers positional versatility as a two-way perimeter wing. Third French player added to the Mercury in 2026, joining Valéane Ayayi and Noémie Brochant.
+          <div class="profile-projection">Projection: Developmental wing — high-ceiling, two-way player. Prototypical modern WNBA wing profile with her shooting touch and length.</div>
+        </div>
+      </div>
+
+      <!-- Pick 42 -->
+      <div class="profile-card">
+        <div class="profile-header">
+          <div>
+            <div class="profile-name">Eszter Rátkai</div>
+            <div class="profile-meta">PG · 5'9" · Hungary · Age 19</div>
+            <div class="profile-meta">PEAC-Pécs (Hungarian League)</div>
+          </div>
+          <div class="profile-pick-badge">PICK 42</div>
+        </div>
+        <div class="section-divider teal">Club Stats — 2025-26 (23 games)</div>
+        <div class="profile-stats-row">
+          <div class="profile-stat">
+            <div class="profile-stat-val">8.5</div>
+            <div class="profile-stat-label">PPG</div>
+          </div>
+          <div class="profile-stat">
+            <div class="profile-stat-val">4.9</div>
+            <div class="profile-stat-label">APG</div>
+          </div>
+          <div class="profile-stat">
+            <div class="profile-stat-val">3.1</div>
+            <div class="profile-stat-label">RPG</div>
+          </div>
+          <div class="profile-stat">
+            <div class="profile-stat-val">1.2</div>
+            <div class="profile-stat-label">SPG</div>
+          </div>
+        </div>
+        <div class="profile-scouting">
+          <strong>Scouting Report:</strong> Elite playmaker for her age — nearly 5.0 assists per game demonstrates advanced court vision and passing ability. Well-rounded guard who contributes across the stat sheet. Competitive pedigree through multiple European youth national team campaigns. Gold medalist at the 2025 FIBA U20 Women's EuroBasket.
+          <div class="profile-projection">Projection: Deep developmental prospect with intriguing playmaking upside. Future consideration rather than immediate roster contributor.</div>
+        </div>
+      </div>
+
+      <div class="section-divider">Draft Strategy Context</div>
+      <p class="insight-text">
+        U'Ren has consistently targeted <strong>international players with professional experience</strong> over WNBA veterans with late-round picks. Pitarch-Granel becomes the third French player on the 2026 roster, reinforcing the Mercury's growing French pipeline. Both picks are 19-year-old developmental investments — the real 2026 roster was built in free agency.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 3: NO. 1 PICK & TOP SELECTIONS ═══ -->
+<div class="accordion-item" id="sec-3">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-3')">
+    <div class="accordion-label">
+      <span class="section-num">03</span>
+      <span class="section-title">No. 1 Pick &amp; Round 1 Highlights</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <!-- Fudd card -->
+      <div class="card">
+        <div class="card-header">
+          <span class="card-name">Azzi Fudd — No. 1 Overall</span>
+          <span class="card-tag tag-round1">DAL</span>
+        </div>
+        <div class="card-stats">17.7 PPG · 45.5% 3PT · 95.5% FT · 3.1 APG</div>
+        <div class="card-detail">
+          UConn shooting guard. First D.C.-area player ever taken No. 1 overall. <strong>Reunites with Paige Bueckers in Dallas</strong> — the duo won the 2025 NCAA Championship together. 7th UConn Husky to go first overall. Under the new CBA, Fudd earns <strong>$500K in Year 1</strong> — a historic first for a WNBA rookie. Also earning her MBA from UConn in May.
+        </div>
+      </div>
+
+      <!-- Key first round picks -->
+      <div class="section-divider">Other Round 1 Headliners</div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-name">Olivia Miles — No. 2</span>
+          <span class="card-tag tag-round1">MIN</span>
+        </div>
+        <div class="card-detail">TCU point guard selected by Minnesota (via Chicago). Adds dynamic playmaking to a Lynx team dealing with Napheesa Collier's injury absence.</div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-name">Awa Fam — No. 3</span>
+          <span class="card-tag tag-round1">SEA</span>
+        </div>
+        <div class="card-detail">19-year-old center from Valencia, Spain. Highest upside player in the class — athletic interior finisher and passer. Anchors Seattle's youth-driven rebuild.</div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-name">Lauren Betts — No. 4</span>
+          <span class="card-tag tag-round1">WAS</span>
+        </div>
+        <div class="card-detail">UCLA national champion center. 6'7" with 60%+ FG in the tournament. First of three Mystics picks in the top 11.</div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-name">Kiki Rice — No. 6</span>
+          <span class="card-tag tag-expansion">TOR</span>
+        </div>
+        <div class="card-detail"><strong>Toronto Tempo's first-ever draft pick.</strong> UCLA playmaker averaged 5.0 APG. First pick in franchise history for the first Canadian WNBA team.</div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-name">Flau'Jae Johnson — No. 8</span>
+          <span class="card-tag tag-trade">TRADED</span>
+        </div>
+        <div class="card-detail">LSU star drafted by Golden State then <strong>immediately traded to Seattle</strong> for Marta Suárez + 2028 2nd-rounder. Most controversial move of the night. Valkyries GM refused to explain publicly.</div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-name">Raven Johnson — No. 10</span>
+          <span class="card-tag tag-round1">IND</span>
+        </div>
+        <div class="card-detail">South Carolina point guard lands in Indiana alongside Caitlin Clark. Adds defensive intensity to a Fever team already surging.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 4: FULL DRAFT BOARD ═══ -->
+<div class="accordion-item" id="sec-4">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-4')">
+    <div class="accordion-label">
+      <span class="section-num">04</span>
+      <span class="section-title">Full Draft Board — All 45 Picks</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <div class="section-divider teal">Round 1</div>
+      <div class="draft-pick-row"><span class="pick-num">1</span><span class="pick-team">DAL</span><span class="pick-player">Azzi Fudd</span><span class="pick-info">UConn · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">2</span><span class="pick-team">MIN</span><span class="pick-player">Olivia Miles</span><span class="pick-info">TCU · PG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">3</span><span class="pick-team">SEA</span><span class="pick-player">Awa Fam</span><span class="pick-info">Spain · C/PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">4</span><span class="pick-team">WAS</span><span class="pick-player">Lauren Betts</span><span class="pick-info">UCLA · C</span></div>
+      <div class="draft-pick-row"><span class="pick-num">5</span><span class="pick-team">CHI</span><span class="pick-player">Gabriela Jaquez</span><span class="pick-info">UCLA · SG/SF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">6</span><span class="pick-team">TOR</span><span class="pick-player">Kiki Rice</span><span class="pick-info">UCLA · PG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">7</span><span class="pick-team">POR</span><span class="pick-player">Iyana Martín Carrión</span><span class="pick-info">Spain · PG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">8</span><span class="pick-team">GSV</span><span class="pick-player">Flau'Jae Johnson ↗SEA</span><span class="pick-info">LSU · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">9</span><span class="pick-team">WAS</span><span class="pick-player">Angela Dugalić</span><span class="pick-info">UCLA · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">10</span><span class="pick-team">IND</span><span class="pick-player">Raven Johnson</span><span class="pick-info">S. Carolina · PG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">11</span><span class="pick-team">WAS</span><span class="pick-player">Cotie McMahon</span><span class="pick-info">Ole Miss · SF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">12</span><span class="pick-team">CON</span><span class="pick-player">Nell Angloma</span><span class="pick-info">France · SF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">13</span><span class="pick-team">ATL</span><span class="pick-player">Madina Okot</span><span class="pick-info">S. Carolina · C</span></div>
+      <div class="draft-pick-row"><span class="pick-num">14</span><span class="pick-team">SEA</span><span class="pick-player">Taina Mair</span><span class="pick-info">Duke · PG/SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">15</span><span class="pick-team">CON</span><span class="pick-player">Gianna Kneepkens</span><span class="pick-info">UCLA · SG/SF</span></div>
+
+      <div class="section-divider teal">Round 2</div>
+      <div class="draft-pick-row"><span class="pick-num">16</span><span class="pick-team">SEA</span><span class="pick-player">Marta Suárez</span><span class="pick-info">TCU · SF/PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">17</span><span class="pick-team">POR</span><span class="pick-player">Frieda Bühner</span><span class="pick-info">Germany · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">18</span><span class="pick-team">CON</span><span class="pick-player">Charlisse Léger-Walker</span><span class="pick-info">UCLA · PG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">19</span><span class="pick-team">WAS</span><span class="pick-player">Cassandre Prosper</span><span class="pick-info">Notre Dame · SF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">20</span><span class="pick-team">LA</span><span class="pick-player">Ta'Niya Latson</span><span class="pick-info">S. Carolina · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">21</span><span class="pick-team">CHI</span><span class="pick-player">Latasha Lattimore</span><span class="pick-info">Ole Miss · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">22</span><span class="pick-team">TOR</span><span class="pick-player">Teonni Key</span><span class="pick-info">Kentucky · PF/C</span></div>
+      <div class="draft-pick-row"><span class="pick-num">23</span><span class="pick-team">GSV</span><span class="pick-player">Ashlon Jackson</span><span class="pick-info">Duke · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">24</span><span class="pick-team">LA</span><span class="pick-player">Chance Gray</span><span class="pick-info">Ohio St. · PG/SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">25</span><span class="pick-team">IND</span><span class="pick-player">Justine Pissott</span><span class="pick-info">Vanderbilt · SF/PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">26</span><span class="pick-team">TOR</span><span class="pick-player">Saffron Shiels</span><span class="pick-info">Australia · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num mercury-pick">27</span><span class="pick-team mercury">PHX</span><span class="pick-player mercury-player">Inés Pitarch-Granel</span><span class="pick-info">France · SG/SF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">28</span><span class="pick-team">ATL</span><span class="pick-player">Indya Nivar</span><span class="pick-info">UNC · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">29</span><span class="pick-team">LV</span><span class="pick-player">Janiah Barker</span><span class="pick-info">Tennessee · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">30</span><span class="pick-team">WAS</span><span class="pick-player">Darianna Littlepage-Buggs</span><span class="pick-info">Baylor · PF</span></div>
+
+      <div class="section-divider teal">Round 3</div>
+      <div class="draft-pick-row"><span class="pick-num">31</span><span class="pick-team">DAL</span><span class="pick-player">Zee Spearman</span><span class="pick-info">Tennessee · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">32</span><span class="pick-team">CHI</span><span class="pick-player">Tonie Morgan</span><span class="pick-info">Kentucky · PG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">33</span><span class="pick-team">CON</span><span class="pick-player">Serah Williams</span><span class="pick-info">UConn · PF/C</span></div>
+      <div class="draft-pick-row"><span class="pick-num">34</span><span class="pick-team">WAS</span><span class="pick-player">Rori Harmon</span><span class="pick-info">Texas · PG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">35</span><span class="pick-team">LA</span><span class="pick-player">Amelia Hassett</span><span class="pick-info">Kentucky · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">36</span><span class="pick-team">TOR</span><span class="pick-player">Charlisse Dunn</span><span class="pick-info">Davidson · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">37</span><span class="pick-team">POR</span><span class="pick-player">Taylor Bigby</span><span class="pick-info">TCU · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">38</span><span class="pick-team">GSV</span><span class="pick-player">Kokoro Tanaka</span><span class="pick-info">Japan · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">39</span><span class="pick-team">SEA</span><span class="pick-player">Grace VanSlooten</span><span class="pick-info">Michigan St. · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">40</span><span class="pick-team">IND</span><span class="pick-player">Jessica Timmons</span><span class="pick-info">Alabama · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">41</span><span class="pick-team">NY</span><span class="pick-player">Manuela Puoch</span><span class="pick-info">Australia · PF</span></div>
+      <div class="draft-pick-row"><span class="pick-num mercury-pick">42</span><span class="pick-team mercury">PHX</span><span class="pick-player mercury-player">Eszter Rátkai</span><span class="pick-info">Hungary · PG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">43</span><span class="pick-team">ATL</span><span class="pick-player">Kejia Ran</span><span class="pick-info">China · SG</span></div>
+      <div class="draft-pick-row"><span class="pick-num">44</span><span class="pick-team">LV</span><span class="pick-player">Jordan Obi</span><span class="pick-info">Kentucky · SF</span></div>
+      <div class="draft-pick-row"><span class="pick-num">45</span><span class="pick-team">MIN</span><span class="pick-player">Lani White</span><span class="pick-info">Utah · SG</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 5: DRAFT STORYLINES ═══ -->
+<div class="accordion-item" id="sec-5">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-5')">
+    <div class="accordion-label">
+      <span class="section-num">05</span>
+      <span class="section-title">Key Draft Storylines</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <div class="storyline">
+        <div class="storyline-title">UCLA Makes Draft History</div>
+        <div class="storyline-text">Six UCLA players drafted — <strong>five in Round 1</strong> (Betts 4, Jaquez 5, Rice 6, Dugalić 9, Kneepkens 15) — setting two WNBA records: most players from one school in a single draft (6) and most first-round picks from one school (5). The 2025-26 national champions sent their entire starting core to the pros.</div>
+      </div>
+
+      <div class="storyline">
+        <div class="storyline-title">The Dallas Reunion</div>
+        <div class="storyline-text">For the second straight year, Dallas held the No. 1 pick. In 2025 they took Paige Bueckers (Rookie of the Year). In 2026, they reunited her with UConn teammate and girlfriend Azzi Fudd. The two won the 2025 NCAA title together and now build a potential dynasty in Dallas. Under the new CBA, Fudd earns <span class="teal">$500K in Year 1</span> — the first $500K rookie deal in WNBA history.</div>
+      </div>
+
+      <div class="storyline">
+        <div class="storyline-title">Seattle: Draft Night's Biggest Winners</div>
+        <div class="storyline-text">After losing Diggins, G. Williams, and Sykes in free agency, the Storm rebuilt through the draft: Awa Fam (No. 3), Flau'Jae Johnson (No. 8 via trade), Taina Mair (No. 14), Marta Suárez (No. 16). Exceptionally young core with Fam (19), Johnson (22), Mair (22), and Ezi Magbegor (26).</div>
+      </div>
+
+      <div class="storyline">
+        <div class="storyline-title">The Flau'Jae Johnson Mystery</div>
+        <div class="storyline-text">Golden State drafted LSU star Flau'Jae Johnson at No. 8 then immediately traded her to Seattle for Suárez + a 2028 second-rounder. Most analysts called it the worst move of draft night. Valkyries GM Nyanin refused to explain: <em>"When I'm ready… I'll speak on it."</em></div>
+      </div>
+
+      <div class="storyline">
+        <div class="storyline-title">Expansion Teams Arrive</div>
+        <div class="storyline-text">All three expansion franchises made Round 1 picks: <span class="teal">Toronto Tempo</span> took Kiki Rice (No. 6) — their first-ever pick in franchise history. Portland Fire selected Iyana Martín Carrión (No. 7) from Spain. Golden State's pick (Johnson) was traded. Toronto becomes the first Canadian WNBA franchise.</div>
+      </div>
+
+      <div class="storyline">
+        <div class="storyline-title">Mystics Triple Up — But Questions Remain</div>
+        <div class="storyline-text">Washington held three top-11 picks (Betts 4, Dugalić 9, McMahon 11) but drew criticism for bypassing elite shooters despite being the league's worst 3PT team (32.9%). All three selections were bigs or interior-leaning forwards. The team also fired GM Jamila Wideman citing "serious strategic differences" before the draft.</div>
+      </div>
+
+      <div class="storyline">
+        <div class="storyline-title">New CBA Transforms the Stakes</div>
+        <div class="storyline-text">First draft under the new CBA. No. 1 pick now earns <span class="teal">$500K</span> (up from $74K). Average WNBA salary rose to ~$583K. Supermax at $1.4M in 2026, rising to $2.4M. New 11-year broadcast deals worth ~$2.2B (ESPN, NBC, Amazon, CBS, USA Network) begin this season.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 6: MERCURY VOICES ═══ -->
+<div class="accordion-item" id="sec-6">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-6')">
+    <div class="accordion-label">
+      <span class="section-num">06</span>
+      <span class="section-title">Mercury Voices &amp; Media Grades</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <div class="section-divider teal">Front Office</div>
+
+      <div class="quote-block">
+        <div class="quote-text">"Kahleah is a true leader, on and off the court, one of the most explosive athletes in our game and competes with a relentless edge and toughness. Her impact on both ends of the court and ability to deliver in the biggest moments make her truly special."</div>
+        <div class="quote-attr">— Nick U'Ren, GM · on Copper re-signing (April 12)</div>
+      </div>
+
+      <div class="quote-block">
+        <div class="quote-text">"Having DeWanna back in a Mercury uniform is incredibly meaningful to our organization. She brings a championship mindset, elite skillset and the kind of leadership that defines winning teams."</div>
+        <div class="quote-attr">— Nick U'Ren, GM · on Bonner re-signing (April 12)</div>
+      </div>
+
+      <div class="section-divider teal">Coaching Staff</div>
+
+      <div class="quote-block">
+        <div class="quote-text">"It's going to be a swift transition for all of us. Every team is facing the same challenges we are. I'm thrilled that we have a CBA finalized."</div>
+        <div class="quote-attr">— Nate Tibbetts, Head Coach · on compressed offseason (April 1)</div>
+      </div>
+
+      <div class="quote-block">
+        <div class="quote-text">"It's a tense time, but I empathize more with the players than with us. There's a degree of uncertainty for them. It's simply part of the process. A lot will unfold in the next 20 days."</div>
+        <div class="quote-attr">— Nate Tibbetts, Head Coach · on pre-draft atmosphere</div>
+      </div>
+
+      <div class="quote-block">
+        <div class="quote-text">"What we want is a team that's gritty and tough defensively. We want to fly around. Our shot profile... we're trying to get to the rim and we're trying to shoot threes and do it at a certain rate, a certain speed."</div>
+        <div class="quote-attr">— Nate Tibbetts, Head Coach · on team identity</div>
+      </div>
+
+      <div class="section-divider teal">Team Building Vision</div>
+
+      <div class="quote-block orange-quote">
+        <div class="quote-text">"I don't know if you guys have gotten to know Mat Ishbia at all. It is not his intention to be last in the league any longer. Our intention is to try to improve as best we can."</div>
+        <div class="quote-attr">— Nick U'Ren, GM · on ownership expectations</div>
+      </div>
+
+      <div class="quote-block">
+        <div class="quote-text">"We all come from different winning backgrounds, and now we have the opportunity to come together and achieve something unique. It's time to return to the playoffs. I'm still pursuing a championship and thrilled to be part of this group."</div>
+        <div class="quote-attr">— Alyssa Thomas · on 2026 roster ambitions</div>
+      </div>
+
+      <div class="section-divider teal">Media Draft Grades</div>
+
+      <div class="grade-row">
+        <div class="grade-badge grade-d">D</div>
+        <div>
+          <div class="grade-outlet">ESPN (Michael Voepel)</div>
+          <div class="grade-take">"Phoenix went for potential with two 19-year-old Europeans, and it could pay off. But it's hard to tell now."</div>
+        </div>
+      </div>
+
+      <div class="grade-row">
+        <div class="grade-badge grade-b">B-</div>
+        <div>
+          <div class="grade-outlet">Bleacher Report — Pitarch-Granel</div>
+          <div class="grade-take">"A 6'0" athletic, defense-first wing who played meaningful EuroLeague minutes for Bourges as a teenager."</div>
+        </div>
+      </div>
+
+      <div class="grade-row">
+        <div class="grade-badge grade-c">C</div>
+        <div>
+          <div class="grade-outlet">Bleacher Report — Rátkai</div>
+          <div class="grade-take">Late-round developmental pick. Court vision and passing intriguing but far from WNBA-ready.</div>
+        </div>
+      </div>
+
+      <p class="insight-text" style="margin-top:12px;">
+        <strong>Local coverage (AZCentral / Jenna Ortiz):</strong> Noted U'Ren's consistent strategy of targeting international players and flagged that the team had yet to finalize contracts for PG Monique Akoa Makani, Natasha Mack, and Kathryn Westbeld. <strong>Sporting News</strong> listed the Mercury as an offseason "loser" after losing Sabally and not making significant additions beyond re-signings.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 7: MERCURY ROSTER STATUS ═══ -->
+<div class="accordion-item" id="sec-7">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-7')">
+    <div class="accordion-label">
+      <span class="section-num">07</span>
+      <span class="section-title">Mercury Roster Status</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <div class="section-divider teal">Confirmed Roster</div>
+      <div class="roster-row">
+        <span class="roster-pos">G</span>
+        <span class="roster-name">Kahleah Copper</span>
+        <span class="roster-status status-signed">RE-SIGNED</span>
+        <span class="roster-note">4x All-Star · 2yr deal</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">F</span>
+        <span class="roster-name">Alyssa Thomas</span>
+        <span class="roster-status status-signed">RE-SIGNED</span>
+        <span class="roster-note">6x All-Star</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">G/F</span>
+        <span class="roster-name">DeWanna Bonner</span>
+        <span class="roster-status status-signed">RE-SIGNED</span>
+        <span class="roster-note">6x All-Star · 16yr vet</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">G</span>
+        <span class="roster-name">Sami Whitcomb</span>
+        <span class="roster-status status-signed">RE-SIGNED</span>
+        <span class="roster-note">86 3PT in 2025</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">C</span>
+        <span class="roster-name">Kalani Brown</span>
+        <span class="roster-status status-signed">CONTRACT</span>
+        <span class="roster-note">Under contract</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">F</span>
+        <span class="roster-name">Valéane Ayayi</span>
+        <span class="roster-status status-new">NEW</span>
+        <span class="roster-note">France · FA signing</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">F</span>
+        <span class="roster-name">Noémie Brochant</span>
+        <span class="roster-status status-new">TRAINING</span>
+        <span class="roster-note">France · Training deal</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">G</span>
+        <span class="roster-name">Kiana Williams</span>
+        <span class="roster-status status-new">CAMP</span>
+        <span class="roster-note">Training camp contract</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">SF</span>
+        <span class="roster-name">Inés Pitarch-Granel</span>
+        <span class="roster-status status-draft">DRAFT 27</span>
+        <span class="roster-note">France · 19yo</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">PG</span>
+        <span class="roster-name">Eszter Rátkai</span>
+        <span class="roster-status status-draft">DRAFT 42</span>
+        <span class="roster-note">Hungary · 19yo</span>
+      </div>
+
+      <div class="section-divider">Qualifying Offers (Pending)</div>
+      <div class="roster-row">
+        <span class="roster-pos">G</span>
+        <span class="roster-name">Monique Akoa Makani</span>
+        <span class="roster-status status-pending">QO</span>
+        <span class="roster-note">Starting PG in 2025</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">F</span>
+        <span class="roster-name">Natasha Mack</span>
+        <span class="roster-status status-pending">QO</span>
+        <span class="roster-note"></span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">F</span>
+        <span class="roster-name">Kathryn Westbeld</span>
+        <span class="roster-status status-pending">QO</span>
+        <span class="roster-note"></span>
+      </div>
+
+      <div class="section-divider">Key Departures</div>
+      <div class="roster-row">
+        <span class="roster-pos">F</span>
+        <span class="roster-name">Satou Sabally → NYL</span>
+        <span class="roster-status status-lost">FA LOSS</span>
+        <span class="roster-note">16.3 PPG · 3x All-Star</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">G</span>
+        <span class="roster-name">Lexi Held → TOR</span>
+        <span class="roster-status status-lost">EXPANSION</span>
+        <span class="roster-note">Key reserve lost</span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">F</span>
+        <span class="roster-name">Kitija Laksa → TOR</span>
+        <span class="roster-status status-lost">EXPANSION</span>
+        <span class="roster-note"></span>
+      </div>
+      <div class="roster-row">
+        <span class="roster-pos">C</span>
+        <span class="roster-name">Brittney Griner → ATL</span>
+        <span class="roster-status status-lost">FA LOSS</span>
+        <span class="roster-note">11yr Mercury vet</span>
+      </div>
+
+      <p class="insight-text" style="margin-top:14px;">
+        <strong>Bottom line:</strong> The 2025 Finals core of <span class="highlight">Copper + Thomas + Bonner + Whitcomb</span> returns intact. The Sabally loss is the biggest hit — she was the team's leading scorer and most versatile offensive weapon. Can Ayayi, a full season of Bonner, and Copper's return to form close the gap? Training camp opens <span class="highlight">April 19</span>.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 8: WHAT'S NEXT — MERCURY ═══ -->
+<div class="accordion-item" id="sec-8">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-8')">
+    <div class="accordion-label">
+      <span class="section-num">08</span>
+      <span class="section-title">What's Next — Mercury Calendar</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">APR</div><div class="cal-day">19</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Training Camp Opens</div>
+          <div class="cal-detail">Mortgage Matchup Center, Phoenix</div>
+          <span class="cal-badge cal-mercury">MERCURY</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">APR</div><div class="cal-day">22</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Mercury Media Day (Est.)</div>
+          <div class="cal-detail">~3 days into camp, based on 2025 precedent</div>
+          <span class="cal-badge cal-mercury">MERCURY</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">APR</div><div class="cal-day">25</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Preseason: vs. Chicago Sky</div>
+          <div class="cal-detail">Sanford Pentagon, Sioux Falls, SD — "Sioux Falls Showdown." First-ever WNBA game in South Dakota. Free clinic for 150 girls after the game.</div>
+          <span class="cal-badge cal-mercury">MERCURY</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">APR</div><div class="cal-day">29</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Preseason: vs. Japan National Team</div>
+          <div class="cal-detail">Mortgage Matchup Center, Phoenix — international exhibition</div>
+          <span class="cal-badge cal-mercury">MERCURY</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">MAY</div><div class="cal-day">9</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Regular Season Opener: @ Las Vegas Aces</div>
+          <div class="cal-detail">T-Mobile Arena, Las Vegas — 2025 WNBA Finals rematch</div>
+          <span class="cal-badge cal-finals">FINALS REMATCH</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">MAY</div><div class="cal-day">10</div></div>
+        <div class="cal-info">
+          <div class="cal-event">@ Golden State Valkyries</div>
+          <div class="cal-detail">Chase Center, San Francisco</div>
+          <span class="cal-badge cal-mercury">MERCURY</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">MAY</div><div class="cal-day">12</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Home Opener: vs. Minnesota Lynx</div>
+          <div class="cal-detail">Mortgage Matchup Center, Phoenix — 2025 playoff rematch</div>
+          <span class="cal-badge cal-mercury">HOME OPENER</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SECTION 9: WHAT'S NEXT — WNBA LEAGUE ═══ -->
+<div class="accordion-item" id="sec-9">
+  <button class="accordion-trigger" onclick="toggleAccordion('sec-9')">
+    <div class="accordion-label">
+      <span class="section-num">09</span>
+      <span class="section-title">What's Next — WNBA League Calendar</span>
+    </div>
+    <span class="accordion-arrow">▼</span>
+  </button>
+  <div class="accordion-content">
+    <div class="section-body">
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">APR</div><div class="cal-day">19</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Training Camps Open (All 15 Teams)</div>
+          <div class="cal-detail">League grows from 13 to 15 teams with Portland Fire and Toronto Tempo</div>
+          <span class="cal-badge cal-league">LEAGUE</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">APR</div><div class="cal-day">25</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Preseason Begins</div>
+          <div class="cal-detail">4 games on opening day: IND@NY, CHI vs PHX, MIN@WAS, SEA@GSV</div>
+          <span class="cal-badge cal-league">LEAGUE</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">MAY</div><div class="cal-day">8</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Regular Season Tip-Off</div>
+          <div class="cal-detail">Opening night tripleheader: CON vs NY, WAS vs TOR (Tempo debut), GSV vs SEA. New $2.2B broadcast era begins.</div>
+          <span class="cal-badge cal-league">OPENING NIGHT</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">JUN</div><div class="cal-day">1</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Commissioner's Cup Begins</div>
+          <div class="cal-detail">Group play: June 1–17. Championship game: June 30 (Amazon Prime Video).</div>
+          <span class="cal-badge cal-league">LEAGUE</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">JUL</div><div class="cal-day">25</div></div>
+        <div class="cal-info">
+          <div class="cal-event">All-Star Game — Chicago</div>
+          <div class="cal-detail">United Center (ABC). Skills Challenge + 3PT Contest on July 24 at Wintrust Arena.</div>
+          <span class="cal-badge cal-league">ALL-STAR</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">SEP</div><div class="cal-day">4</div></div>
+        <div class="cal-info">
+          <div class="cal-event">FIBA Women's World Cup</div>
+          <div class="cal-detail">Berlin, Germany (Sept 4–13). WNBA schedule pauses Sept 1–16. USA seeks 5th consecutive title.</div>
+          <span class="cal-badge cal-league">FIBA</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">SEP</div><div class="cal-day">24</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Regular Season Ends</div>
+          <div class="cal-detail">44-game season. Mercury close vs. Las Vegas Aces at home.</div>
+          <span class="cal-badge cal-league">LEAGUE</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">SEP</div><div class="cal-day">27</div></div>
+        <div class="cal-info">
+          <div class="cal-event">Playoffs Begin</div>
+          <div class="cal-detail">Top 8 qualify. R1: Best-of-3. Semis: Best-of-5. Finals: Best-of-7.</div>
+          <span class="cal-badge cal-finals">PLAYOFFS</span>
+        </div>
+      </div>
+
+      <div class="calendar-item">
+        <div class="cal-date"><div class="cal-month">OCT</div><div class="cal-day">10</div></div>
+        <div class="cal-info">
+          <div class="cal-event">WNBA Finals (Projected Window)</div>
+          <div class="cal-detail">Oct. 10–20, 2026. Coverage across ESPN, NBC, Amazon, CBS.</div>
+          <span class="cal-badge cal-finals">FINALS</span>
+        </div>
+      </div>
+
+      <div class="section-divider" style="margin-top:16px;">League Storylines to Watch</div>
+      <div class="storyline">
+        <div class="storyline-text"><strong>Expansion era:</strong> Portland Fire and Toronto Tempo begin play — first Canadian WNBA team ever. <strong>Connecticut's farewell tour:</strong> Sun play lame-duck season before Houston relocation ($300M sale to Fertitta family). <strong>Broadcast revolution:</strong> $2.2B in new TV deals with ESPN, NBC, Amazon, CBS, USA Network. <strong>Caitlin Clark vs. Bueckers:</strong> May 9 (Day 2 of the season) is already the most anticipated game.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<div class="footer">
+  <div class="footer-tagline">#DOMINATE</div>
+  <div class="footer-logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 64" width="140" height="26">
+      <circle cx="32" cy="32" r="30" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.12"/>
+      <circle cx="32" cy="32" r="22" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.25"/>
+      <circle cx="32" cy="32" r="14" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.45"/>
+      <line x1="22" y1="32" x2="43" y2="32" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+      <polyline points="37,26 43,32 37,38" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.5"/>
+      <line x1="78" y1="12" x2="78" y2="52" stroke="rgba(255,255,255,0.15)" stroke-width="1.2"/>
+      <text x="94" y="38" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="28" fill="rgba(255,255,255,0.4)" letter-spacing="-0.5">AVC</text>
+      <text x="94" y="53" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="7.8" fill="rgba(255,255,255,0.25)" letter-spacing="2.4">ACCELERATED VELOCITY CONSULTING</text>
+    </svg>
+  </div>
+  <div class="footer-message">Great draft intel for a great season ahead, Mat</div>
+  <div class="footer-timestamp">Generated April 14, 2026 — 11:41 AM MST</div>
+  <div class="footer-accent"></div>
+</div>
+
+</div>
+
+<script>
+function toggleAccordion(id) {
+  const item = document.getElementById(id);
+  item.classList.toggle('open');
+}
+
+// Double-tap header = expand all / collapse all
+let tapCount = 0;
+let tapTimer = null;
+document.querySelector('.header').addEventListener('click', function() {
+  tapCount++;
+  if (tapCount === 1) {
+    tapTimer = setTimeout(function() { tapCount = 0; }, 350);
+  } else if (tapCount === 2) {
+    clearTimeout(tapTimer);
+    tapCount = 0;
+    const items = document.querySelectorAll('.accordion-item');
+    const allOpen = Array.from(items).every(i => i.classList.contains('open'));
+    items.forEach(i => {
+      if (allOpen) i.classList.remove('open');
+      else i.classList.add('open');
+    });
+  }
+});
+</script>
+</body>
+</html>
